@@ -70,7 +70,8 @@
 
         .hero-links {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
             gap: 8px;
             margin-bottom: 24px;
         }
@@ -363,26 +364,9 @@
                 padding: 32px 28px;
                 text-align: center;
             }
-            .hero-links { justify-content: center; }
+            .hero-links { align-items: center; }
             .section { padding: 32px 28px; }
             .hero-name { font-size: 1.75rem; }
-        }
-
-        /* ── AVATAR PLACEHOLDER ───────────────── */
-        .avatar-placeholder {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #2563eb, #7c3aed);
-            color: #fff;
-            font-size: 2.6rem;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.14);
-            border: 3px solid #fff;
         }
 
         /* ── RESEARCH INTERESTS ───────────────── */
@@ -438,10 +422,10 @@
       <p class="hero-affiliation">Software Engineering Institute, East China Normal University &nbsp;·&nbsp; Ph.D. Student</p>
       <div class="hero-links">
         <a class="hero-link" href="mailto:72285900002@stu.ecnu.edu.cn">
-          <i class="fa fa-envelope"></i> Email
+          <i class="fa fa-envelope"></i> 72285900002@stu.ecnu.edu.cn
         </a>
-        <a class="hero-link" href="https://github.com/fengddrobot" target="_blank">
-          <i class="fab fa-github"></i> GitHub
+        <a class="hero-link" href="https://github.com/fengddrobot/github.io" target="_blank">
+          <i class="fab fa-github"></i> https://github.com/fengddrobot/github.io
         </a>
       </div>
       <p class="hero-bio">
@@ -453,7 +437,7 @@
       </p>
     </div>
     <div class="profile-image">
-      <div class="avatar-placeholder">DF</div>
+      <img src="photo.jpg" alt="Dongdong Feng">
     </div>
   </div>
 
